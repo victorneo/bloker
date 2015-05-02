@@ -8,3 +8,8 @@ We use prebuilt images from [Docker Hub](https://hub.docker.com/) to setup a tes
 
 * `python:2.7` for running the web application and tests.
 * `postgres` for the Database.
+
+
+## Running tests
+
+    sh scripts/run_tests.sh
