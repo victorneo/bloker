@@ -1,0 +1,10 @@
+web:
+  build: .
+  links:
+   - postgres
+
+postgres:
+  image: postgres
+  environment:
+    POSTGRES_USER: bloker
+    POSTGRES_PASSWORD: 1234

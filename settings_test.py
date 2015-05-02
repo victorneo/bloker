@@ -1,1 +1,1 @@
-SQLALCHEMY_DATABASE_URI = 'postgresql://localhost/bloker_test'
+SQLALCHEMY_DATABASE_URI = 'postgresql://bloker:1234@postgres/bloker'
